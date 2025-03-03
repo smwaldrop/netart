@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Im Weird';
+    src: url('fonts/i_mWeird.TTF');
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    padding: 30px 30px 30px 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    padding: 30px 30px 30px 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+p {
+    font-family: 'Im Weird';
+    font-size: 120 px;
+
+}
+
+a{ 
+    text-decoration: none;
+    color: black;
+}
+
