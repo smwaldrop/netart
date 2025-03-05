@@ -3,34 +3,52 @@
     src: url('fonts/i_mWeird.TTF');
 }
 
-nav{
-    display: flex;
+body {
+    background-color: tomato;
+    margin: auto;
     align-items: center;
-    position: fixed;
-    padding: 30px 30px 30px 30px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
+    width: 1120px;
 }
 
-header{
+section {
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+    background-color: olive;
+    grid-auto-flow: dense;
+}
+
+header {
     display: flex;
-    align-items: center;
-    position: fixed;
-    padding: 30px 30px 30px 30px;
+    background-color: brown;
+    margin: auto;
+    justify-content: center;
     flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
+    align-items: center;
 }
 
 p {
     font-family: 'Im Weird';
     font-size: 120 px;
-
+    margin-top: -5%;
+    background-color: hotpink;
+    grid-column: 5/ span 1;
 }
 
-a{ 
+a { 
     text-decoration: none;
     color: black;
 }
+
+#kidpixgrid {
+    background-color: darkslateblue;
+    grid-column: 5/span 8;
+    width: 77%;
+
+}
+
+#clickd {
+    background-color: hotpink;
+    grid-column: 5/ span 1;
+}
+
 
